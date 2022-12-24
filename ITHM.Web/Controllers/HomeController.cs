@@ -20,6 +20,7 @@ namespace ITHM.Web.Controllers
 
         public IActionResult Privacy()
         {
+            _logger.LogInformation("Privacy action method called");
             return View();
         }
 
